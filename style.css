@@ -1,0 +1,146 @@
+ .banner{
+     
+     border: 1px solid red;
+     height: 700px;
+     position: relative;
+     background-image: url("./images/child.jpg"),linear-gradient(90deg, rgba(19,47,255,1) 0%, rgba(17,222,255,1) 100%);
+     background-repeat: no-repeat;
+     background-size: 400px, 400px 340px;
+     background-position-x: 20%, 22% ;
+     background-position-y: 55%, 75% ;
+
+
+ }
+ .navpart{
+    
+ }
+ .navpart nav{
+    display: flex;
+    flex-direction: row;
+ }
+ .navpart nav img{
+
+    height:100px;
+    border: 1px solid red;
+ }
+ .navpart nav ul{
+     position: absolute;
+     left: 40%;
+     border: 1px solid red;
+    vertical-align: top;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.navpart nav ul li{
+    list-style-type: none;
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    padding: 20px 0px;
+}
+.navpart nav ul li a{
+    text-decoration: none;
+    padding: 0px 30px;
+    color: black;
+    font-size: 14pt;
+    font-weight: bold;
+    font-family: 'Oswald', sans-serif;
+}
+.banner .who{
+    position: relative;
+    border: 5px solid red;
+    
+}
+.banner .who h1{
+    position: absolute;
+    left: 50%;
+    font-size: 45pt;
+    font-weight: 900;
+    margin-top: 10px;
+    color: blue;    
+    font-family: 'Oswald', sans-serif;
+}
+.banner .who p{
+    position: absolute;
+    top: 260px;
+    left: 50%;
+    font-family: 'Oswald', sans-serif;
+    font-size: 15pt;
+}
+.banner .boxes{
+    position: absolute;
+    top: 435px;
+    left: 45%;
+}
+.banner .boxes img/*:nth-child(4)*/{
+    width:150px;
+    height: 150px;
+    border: 1px solid red;
+}
+
+/* start paragraph 1 */
+
+.para{
+    height: 400px;
+    position: relative;
+    
+}
+.para h3{
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    font-family: 'Oswald', sans-serif;
+}
+.para .line{
+    position: absolute;
+    top: 35%;
+    left: 30%;
+    border: 5px solid red;
+    width: 100px;
+}
+.para p{
+    position: absolute;
+    top: 30%;
+    width: 40%;
+    left: 38%;
+    font-family: 'Oswald', sans-serif;
+}
+
+
+/* start about */
+.about{}
+.about .top{}
+.about .top p{}
+.about .top h3{}
+.about .left{}
+.about .right{}
+.about .kid{}
+.about .kid img{}
+/* start features  */
+.features{}
+.features .key{}
+.features .key p{}
+.features .env{}
+.features .env h4{}
+.features .env p{}
+/* innovation start */
+.innov{}
+.innov .meth{}
+.innov .meth h3{}
+.innov .meth p{}
+/* how we do it start */
+.how{}
+.how h3{}
+.how .left{}
+.how .left p{}
+.how .Right{}
+.how .Right p{}
+/* start col */
+.col{}
+.col .adress{}
+.col .adress img{}
+.col .adress address{}
+
+/* footer start */
+footer{}
+footer .one{}
