@@ -108,39 +108,77 @@
 
 
 /* start about */
-.about{}
-.about .top{}
-.about .top p{}
-.about .top h3{}
-.about .left{}
-.about .right{}
-.about .kid{}
-.about .kid img{}
+.about{
+    width: 600px;
+}
+.about .top{
+
+}
+.about .top p{
+    font-family: 'Oswald', sans-serif;
+}
+.about .top h3{
+    font-family: 'Oswald', sans-serif;
+}
+.about .left{
+
+}
+.about .right{
+
+}
+.about .kid{
+
+}
+.about .kid img{
+
+}
 /* start features  */
 .features{}
 .features .key{}
-.features .key p{}
+.features .key p{
+    font-family: 'Oswald', sans-serif;
+}
 .features .env{}
-.features .env h4{}
-.features .env p{}
+.features .env h4{
+    font-family: 'Oswald', sans-serif;
+}
+.features .env p{
+    font-family: 'Oswald', sans-serif;
+}
 /* innovation start */
 .innov{}
 .innov .meth{}
-.innov .meth h3{}
-.innov .meth p{}
+.innov .meth h3{
+    font-family: 'Oswald', sans-serif;
+}
+.innov .meth p{
+    font-family: 'Oswald', sans-serif;
+}
 /* how we do it start */
 .how{}
-.how h3{}
+.how h3{
+    font-family: 'Oswald', sans-serif;
+}
 .how .left{}
-.how .left p{}
+.how .left p{
+    font-family: 'Oswald', sans-serif;
+}
 .how .Right{}
-.how .Right p{}
+.how .Right p{
+    font-family: 'Oswald', sans-serif;
+}
 /* start col */
 .col{}
 .col .adress{}
 .col .adress img{}
-.col .adress address{}
+.col .adress address{
+    font-family: 'Oswald', sans-serif;
+}
 
 /* footer start */
-footer{}
-footer .one{}
+footer{
+    font-family: 'Oswald', sans-serif;
+}
+footer .one{
+    
+}
