@@ -1,6 +1,6 @@
  .banner{
      
-     border: 1px solid red;
+     /* border: 1px solid red; */
      height: 700px;
      position: relative;
      background-image: url("./images/child.jpg"),linear-gradient(90deg, rgba(19,47,255,1) 0%, rgba(17,222,255,1) 100%);
@@ -21,16 +21,16 @@
  .navpart nav img{
 
     height:100px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
  }
  .navpart nav ul{
      position: absolute;
+     /* border: 1px solid red; */
+     vertical-align: top;
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
      left: 40%;
-     border: 1px solid red;
-    vertical-align: top;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
 }
 .navpart nav ul li{
     list-style-type: none;
@@ -46,9 +46,11 @@
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
 }
+.navpart nav ul li a:hover{
+    color: blue;
+}
 .banner .who{
     position: relative;
-    border: 5px solid red;
     
 }
 .banner .who h1{
@@ -80,31 +82,69 @@
 .banner .boxes .book{
     width:150px;
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: blue;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    color:white;
    
+}
+.banner .boxes .book img{
+    padding-top: 10px;
 }
 .banner .boxes .phy{
     width:150px;
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: red;
-   
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    color:white;  
+}
+.banner .boxes .phy img{
+    padding-top: 10px;
 }
 .banner .boxes .prac{
     width:150px;
     height: 150px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     background-color: purple;
+    text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    color:white;
    
 }
-
+.banner .boxes .prac img{
+    padding-top: 10px;
+}
 .banner .boxes .games{
     width:150px;
     height: 150px;
-    border: 1px solid red;
-    background-color: greenyellow;
+    /* border: 1px solid red; */
+    background-color: green;
     text-align: center;
+    font-family: 'Oswald', sans-serif;
+    font-size: 20pt;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 0;
+    color:white;
+
+}
+.banner .boxes .games img{
+    padding-top: 10px;
    
 }
 
@@ -113,6 +153,8 @@
 .para{
     height: 400px;
     position: relative;
+    color: white;
+    background-color: rgb(25, 189, 230);
     
 }
 .para h3{
@@ -128,7 +170,7 @@
     position: absolute;
     top: 35%;
     left: 30%;
-    border: 5px solid red;
+    border: 5px solid white;
     width: 100px;
 }
 .para p{
