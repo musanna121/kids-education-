@@ -1,13 +1,13 @@
  .banner{
      
      /* border: 1px solid red; */
-     height: 700px;
+     height: 1080px;
      position: relative;
      background-image: url("./images/child.jpg"),linear-gradient(90deg, rgba(19,47,255,1) 0%, rgba(17,222,255,1) 100%);
      background-repeat: no-repeat;
-     background-size: 400px, 400px 340px;
-     background-position-x: 20%, 22% ;
-     background-position-y: 55%, 75% ;
+     background-size: 700px, 700px 640px;
+     background-position-x: 10%, 15% ;
+     background-position-y: 35%, 45% ;
 
 
  }
@@ -75,8 +75,8 @@
     flex-direction: row;
     justify-content: center;
     position: absolute;
-    top: 480px;
-    left: 35%;
+    top: 580px;
+    left: 45%;
     
 }
 .banner .boxes .book{
@@ -184,7 +184,11 @@
 
 /* start about */
 .about{
-    width: 600px;
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: 1px solid red;
+    padding: 10px;
 }
 .about .top{
 
@@ -219,47 +223,215 @@
 .features .env{}
 .features .env h4{
     font-family: 'Oswald', sans-serif;
-    font-size: 24pt;
+    font-size: 16pt;
     margin: 0;
     
 }
 .features .env p{
     font-family: 'Oswald', sans-serif;
+
+}
+.features .active{}
+.features .active h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    
+}
+.features .active p{
+    font-family: 'Oswald', sans-scre
+}
+.features .cre{}
+.features .cre h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    
+}
+.features .cre p{
+    font-family: 'Oswald', sans-serif;
+
+}
+.features .qual{}
+.features .qual h4{
+    font-family: 'Oswald', sans-serif;
+    font-size: 16pt;
+    margin: 0;
+    
+}
+.features .qual p{
+    font-family: 'Oswald', sans-serif;
+
 }
 /* innovation start */
 .innov{}
 .innov .meth{}
 .innov .meth h3{
     font-family: 'Oswald', sans-serif;
+    font-size: 25pt;
 }
 .innov .meth p{
     font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
 }
 /* how we do it start */
-.how{}
+.how{
+    text-align: left;
+    height: 350px;
+    background-color: rgb(29, 86, 211);
+    color: white;
+}
 .how h3{
     font-family: 'Oswald', sans-serif;
+    padding-top:50px;
+    margin-left: 250px;
+    font-size: 24pt;
+    margin-bottom: 0px;
+    
 }
-.how .left{}
+.how .left{
+    margin-left: 250px;
+    display:inline-block;
+    width: 400px;
+}
 .how .left p{
     font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+    margin-top: 0px;
 }
-.how .Right{}
+.how .Right{
+    margin-left: 50px;
+    display:inline-block;
+    width: 400px;
+}
 .how .Right p{
     font-family: 'Oswald', sans-serif;
+    font-size: 14pt;
+  
 }
 /* start col */
-.col{}
-.col .adress{}
-.col .adress img{}
-.col .adress address{
-    font-family: 'Oswald', sans-serif;
+.col{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height: 300px;
 }
+.col .address{
+    width: 250px;
+   
+    text-align: center;
+    margin-right: 170px;
+}
+.col .address img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 60px;
+}
+.col .address address{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+}
+.col .number{
+    
+    text-align: center;
+    width: 250px;
+    margin-right: 170px;
+}
+.col .number img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 60px;
+}
+.col .number address{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+}
+.col .mail{
+    
+    text-align: center;
+    width: 250px;
+}
+.col .mail img{
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    margin-top: 60px;
+}
+.col .mail address{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-style: normal;
+    font-weight: 600;
+
+}
+
 
 /* footer start */
 footer{
     font-family: 'Oswald', sans-serif;
+    width: 100%;
+    background-color:#ff66b3;
+    
 }
 footer .one{
+    height: 300px;
+    background-color:#ff66b3;
+    padding-bottom: 20px;
+   
+}
+footer .one .headline{
     
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+    
+}
+
+footer .one .headline .h{
+    padding-right: 300px;
+    margin-top: 130px;
+    color: white;
+  
+}
+footer .one .headline .m{
+    margin-top: 130px;
+    color: white;
+}
+footer .one .headline h5{
+    font-size: 14pt;
+    margin: 0;
+}
+footer .one .headline p{
+    margin: 0;
+}
+footer .img{
+    text-align: center;
+    padding-top: 45px;
+}
+footer .face{
+    padding-top: 15px;
+    height: 40px;
+}
+footer .two{
+    text-align: center;
+    height: 100px;
+    background-color: #33334d;
+    margin-top: 0px;
+}
+footer .two p{
+    color:white;
+}
+footer .two a{
+    color:#ff66b3;
+}
+footer .two p{
+    color:white;
+    padding-top: 40px;
 }
