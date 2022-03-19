@@ -54,28 +54,50 @@
 .banner .who h1{
     position: absolute;
     left: 50%;
-    font-size: 45pt;
-    font-weight: 900;
+    font-size: 55pt;
+    font-weight: bold;
+    font-weight: bolder;
     margin-top: 10px;
     color: blue;    
     font-family: 'Oswald', sans-serif;
 }
 .banner .who p{
     position: absolute;
-    top: 260px;
+    top: 310px;
     left: 50%;
     font-family: 'Oswald', sans-serif;
     font-size: 15pt;
 }
 .banner .boxes{
     position: absolute;
-    top: 435px;
-    left: 45%;
+    top: 480px;
+    left: 35%;
+    
 }
-.banner .boxes img/*:nth-child(4)*/{
+.banner .boxes .book{
     width:150px;
     height: 150px;
     border: 1px solid red;
+   
+}
+.banner .boxes .phy{
+    width:150px;
+    height: 150px;
+    border: 1px solid red;
+   
+}
+.banner .boxes .prac{
+    width:150px;
+    height: 150px;
+    border: 1px solid red;
+   
+}
+
+.banner .boxes .games{
+    width:150px;
+    height: 150px;
+    border: 1px solid red;
+   
 }
 
 /* start paragraph 1 */
@@ -90,6 +112,9 @@
     top: 20%;
     left: 30%;
     font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    margin: 0;
+    
 }
 .para .line{
     position: absolute;
@@ -116,9 +141,12 @@
 }
 .about .top p{
     font-family: 'Oswald', sans-serif;
+    margin: 0;
 }
 .about .top h3{
     font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    margin: 0;
 }
 .about .left{
 
@@ -141,6 +169,9 @@
 .features .env{}
 .features .env h4{
     font-family: 'Oswald', sans-serif;
+    font-size: 24pt;
+    margin: 0;
+    
 }
 .features .env p{
     font-family: 'Oswald', sans-serif;
