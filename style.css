@@ -69,6 +69,9 @@
     font-size: 15pt;
 }
 .banner .boxes{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     position: absolute;
     top: 480px;
     left: 35%;
@@ -78,18 +81,21 @@
     width:150px;
     height: 150px;
     border: 1px solid red;
+    background-color: blue;
    
 }
 .banner .boxes .phy{
     width:150px;
     height: 150px;
     border: 1px solid red;
+    background-color: red;
    
 }
 .banner .boxes .prac{
     width:150px;
     height: 150px;
     border: 1px solid red;
+    background-color: purple;
    
 }
 
@@ -97,6 +103,8 @@
     width:150px;
     height: 150px;
     border: 1px solid red;
+    background-color: greenyellow;
+    text-align: center;
    
 }
 
