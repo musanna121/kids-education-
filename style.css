@@ -45,6 +45,7 @@
     font-size: 14pt;
     font-weight: bold;
     font-family: 'Oswald', sans-serif;
+    transition-delay: 0.3ms;
 }
 .navpart nav ul li a:hover{
     background-color:blue;
@@ -52,7 +53,7 @@
     border: 3px solid yellow;
     border-radius: 5px;
     text-decoration: underline;
-    transition-delay: 0.3s;
+    
 }
 .banner .who{
     position: relative;
