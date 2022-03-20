@@ -190,8 +190,9 @@
 /* start about */
 .about{
     font-family: 'Oswald', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     padding: 10px;
+    height: 1000px;
     
 }
 .about .top{
@@ -202,13 +203,17 @@
 .about .top p{
     font-family: 'Oswald', sans-serif;
     margin: 0;
+    color: #71717e;
+    font-weight: bold;
 }
 .about .top h3{
     font-family: 'Oswald', sans-serif;
     font-size: 24pt;
     margin: 0;
+    color: #56565e;
 }
 .about .gallery{
+    margin-top: 30px;
     display: flex;
     justify-content: center;
 }
@@ -408,15 +413,25 @@
 .innov .im img:first-child{
     width: 500px;
     position: absolute;
-    left: 30%;
-    top: 40%;
+    left: 29%;
+    top: 36%;
     z-index: 1;
 }
 .innov .im img:nth-child(2){
     width: 600px;
     position: absolute;
+    top: 59px;
+    left: 107px;
 }
-
+.innov .grad{
+    width: 600px;
+    height: 400px;
+    position: absolute;
+    left: 25%;
+    top: 32%;
+    
+    background: linear-gradient(90deg, rgba(24,106,152,1) 0%, rgba(0,212,255,1) 100%);
+}
 .innov .meth{
     width: 500px;
     height: 600px;
